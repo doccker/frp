@@ -1,4 +1,4 @@
-// Copyright 2019 fatedier, fatedier@gmail.com
+// Copyright 2019 doccker, doccker@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ import (
 	"net/http/httputil"
 	"strings"
 
-	frpNet "github.com/fatedier/frp/utils/net"
+	frpNet "github.com/doccker/frp/utils/net"
 )
 
 const PluginHTTPS2HTTP = "https2http"

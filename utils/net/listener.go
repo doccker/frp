@@ -1,4 +1,4 @@
-// Copyright 2017 fatedier, fatedier@gmail.com
+// Copyright 2017 doccker, doccker@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,9 +19,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/fatedier/frp/utils/log"
+	"github.com/doccker/frp/utils/log"
 
-	"github.com/fatedier/golib/errors"
+	"github.com/doccker/golib/errors"
 )
 
 type Listener interface {

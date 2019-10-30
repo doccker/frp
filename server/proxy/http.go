@@ -1,4 +1,4 @@
-// Copyright 2019 fatedier, fatedier@gmail.com
+// Copyright 2019 doccker, doccker@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,13 +19,13 @@ import (
 	"net"
 	"strings"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/server/stats"
-	frpNet "github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/util"
-	"github.com/fatedier/frp/utils/vhost"
+	"github.com/doccker/frp/models/config"
+	"github.com/doccker/frp/server/stats"
+	frpNet "github.com/doccker/frp/utils/net"
+	"github.com/doccker/frp/utils/util"
+	"github.com/doccker/frp/utils/vhost"
 
-	frpIo "github.com/fatedier/golib/io"
+	frpIo "github.com/doccker/golib/io"
 )
 
 type HttpProxy struct {

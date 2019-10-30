@@ -1,4 +1,4 @@
-// Copyright 2019 fatedier, fatedier@gmail.com
+// Copyright 2019 doccker, doccker@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,10 +15,10 @@
 package controller
 
 import (
-	"github.com/fatedier/frp/models/nathole"
-	"github.com/fatedier/frp/server/group"
-	"github.com/fatedier/frp/server/ports"
-	"github.com/fatedier/frp/utils/vhost"
+	"github.com/doccker/frp/models/nathole"
+	"github.com/doccker/frp/server/group"
+	"github.com/doccker/frp/server/ports"
+	"github.com/doccker/frp/utils/vhost"
 )
 
 // All resource managers and controllers

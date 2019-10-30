@@ -1,4 +1,4 @@
-// Copyright 2016 fatedier, fatedier@gmail.com
+// Copyright 2016 doccker, doccker@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ package log
 import (
 	"fmt"
 
-	"github.com/fatedier/beego/logs"
+	"github.com/doccker/beego/logs"
 )
 
 // Log is the under log object

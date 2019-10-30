@@ -1,4 +1,4 @@
-// Copyright 2018 fatedier, fatedier@gmail.com
+// Copyright 2018 doccker, doccker@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,9 +18,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/fatedier/golib/crypto"
+	"github.com/doccker/golib/crypto"
 
-	_ "github.com/fatedier/frp/assets/frps/statik"
+	_ "github.com/doccker/frp/assets/frps/statik"
 )
 
 func main() {

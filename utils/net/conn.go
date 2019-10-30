@@ -1,4 +1,4 @@
-// Copyright 2016 fatedier, fatedier@gmail.com
+// Copyright 2016 doccker, doccker@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/fatedier/frp/utils/log"
+	"github.com/doccker/frp/utils/log"
 
-	gnet "github.com/fatedier/golib/net"
-	kcp "github.com/fatedier/kcp-go"
+	gnet "github.com/doccker/golib/net"
+	kcp "github.com/doccker/kcp-go"
 )
 
 // Conn is the interface of connections used in frp.
