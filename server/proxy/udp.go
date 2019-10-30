@@ -20,12 +20,12 @@ import (
 	"net"
 	"time"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/models/proto/udp"
-	"github.com/fatedier/frp/server/stats"
+	"github.com/doccker/frp/models/config"
+	"github.com/doccker/frp/models/msg"
+	"github.com/doccker/frp/models/proto/udp"
+	"github.com/doccker/frp/server/stats"
 
-	"github.com/fatedier/golib/errors"
+	"github.com/doccker/golib/errors"
 )
 
 type UdpProxy struct {

@@ -22,10 +22,10 @@ import (
 	"net/http"
 	"strings"
 
-	frpNet "github.com/fatedier/frp/utils/net"
+	frpNet "github.com/doccker/frp/utils/net"
 
-	frpIo "github.com/fatedier/golib/io"
-	gnet "github.com/fatedier/golib/net"
+	frpIo "github.com/doccker/golib/io"
+	gnet "github.com/doccker/golib/net"
 )
 
 const PluginHttpProxy = "http_proxy"

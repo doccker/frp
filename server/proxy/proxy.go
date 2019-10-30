@@ -21,14 +21,14 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/server/controller"
-	"github.com/fatedier/frp/server/stats"
-	"github.com/fatedier/frp/utils/log"
-	frpNet "github.com/fatedier/frp/utils/net"
+	"github.com/doccker/frp/models/config"
+	"github.com/doccker/frp/models/msg"
+	"github.com/doccker/frp/server/controller"
+	"github.com/doccker/frp/server/stats"
+	"github.com/doccker/frp/utils/log"
+	frpNet "github.com/doccker/frp/utils/net"
 
-	frpIo "github.com/fatedier/golib/io"
+	frpIo "github.com/doccker/golib/io"
 )
 
 type GetWorkConnFn func() (frpNet.Conn, error)

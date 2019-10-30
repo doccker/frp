@@ -19,10 +19,10 @@ import (
 	"io"
 	"sync"
 
-	frpNet "github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/util"
+	frpNet "github.com/doccker/frp/utils/net"
+	"github.com/doccker/frp/utils/util"
 
-	frpIo "github.com/fatedier/golib/io"
+	frpIo "github.com/doccker/golib/io"
 )
 
 // Manager for visitor listeners.

@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/utils/log"
-	frpNet "github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/util"
+	"github.com/doccker/frp/models/config"
+	"github.com/doccker/frp/models/msg"
+	"github.com/doccker/frp/utils/log"
+	frpNet "github.com/doccker/frp/utils/net"
+	"github.com/doccker/frp/utils/util"
 
-	frpIo "github.com/fatedier/golib/io"
-	"github.com/fatedier/golib/pool"
+	frpIo "github.com/doccker/golib/io"
+	"github.com/doccker/golib/pool"
 	fmux "github.com/hashicorp/yamux"
 )
 

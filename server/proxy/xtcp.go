@@ -17,10 +17,10 @@ package proxy
 import (
 	"fmt"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
+	"github.com/doccker/frp/models/config"
+	"github.com/doccker/frp/models/msg"
 
-	"github.com/fatedier/golib/errors"
+	"github.com/doccker/golib/errors"
 )
 
 type XtcpProxy struct {
