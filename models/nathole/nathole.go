@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doccker/frp/models/msg"
-	"github.com/doccker/frp/utils/log"
-	"github.com/doccker/frp/utils/util"
+	"github.com/fatedier/frp/models/msg"
+	"github.com/fatedier/frp/utils/log"
+	"github.com/fatedier/frp/utils/util"
 
-	"github.com/doccker/golib/errors"
-	"github.com/doccker/golib/pool"
+	"github.com/fatedier/golib/errors"
+	"github.com/fatedier/golib/pool"
 )
 
 // Timeout seconds.

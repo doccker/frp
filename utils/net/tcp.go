@@ -1,4 +1,4 @@
-// Copyright 2016 doccker, doccker@gmail.com
+// Copyright 2016 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/doccker/frp/utils/log"
+	"github.com/fatedier/frp/utils/log"
 )
 
 type TcpListener struct {

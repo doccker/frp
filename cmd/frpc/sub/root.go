@@ -1,4 +1,4 @@
-// Copyright 2018 doccker, doccker@gmail.com
+// Copyright 2018 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -27,10 +27,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/doccker/frp/client"
-	"github.com/doccker/frp/models/config"
-	"github.com/doccker/frp/utils/log"
-	"github.com/doccker/frp/utils/version"
+	"github.com/fatedier/frp/client"
+	"github.com/fatedier/frp/models/config"
+	"github.com/fatedier/frp/utils/log"
+	"github.com/fatedier/frp/utils/version"
 )
 
 const (
@@ -81,7 +81,7 @@ func init() {
 
 var rootCmd = &cobra.Command{
 	Use:   "frpc",
-	Short: "frpc is the client of frp (https://github.com/doccker/frp)",
+	Short: "frpc is the client of frp (https://github.com/fatedier/frp)",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		if showVersion {
 			fmt.Println(version.Full())

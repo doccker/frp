@@ -1,4 +1,4 @@
-// Copyright 2019 doccker, doccker@gmail.com
+// Copyright 2019 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -17,10 +17,10 @@ package proxy
 import (
 	"fmt"
 
-	"github.com/doccker/frp/models/config"
-	"github.com/doccker/frp/models/msg"
+	"github.com/fatedier/frp/models/config"
+	"github.com/fatedier/frp/models/msg"
 
-	"github.com/doccker/golib/errors"
+	"github.com/fatedier/golib/errors"
 )
 
 type XtcpProxy struct {

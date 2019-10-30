@@ -1,4 +1,4 @@
-// Copyright 2019 doccker, doccker@gmail.com
+// Copyright 2019 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,10 +19,10 @@ import (
 	"io"
 	"sync"
 
-	frpNet "github.com/doccker/frp/utils/net"
-	"github.com/doccker/frp/utils/util"
+	frpNet "github.com/fatedier/frp/utils/net"
+	"github.com/fatedier/frp/utils/util"
 
-	frpIo "github.com/doccker/golib/io"
+	frpIo "github.com/fatedier/golib/io"
 )
 
 // Manager for visitor listeners.

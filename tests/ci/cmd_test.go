@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/doccker/frp/tests/consts"
-	"github.com/doccker/frp/tests/util"
+	"github.com/fatedier/frp/tests/consts"
+	"github.com/fatedier/frp/tests/util"
 
 	"github.com/stretchr/testify/assert"
 )

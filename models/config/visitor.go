@@ -1,4 +1,4 @@
-// Copyright 2018 doccker, doccker@gmail.com
+// Copyright 2018 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/doccker/frp/models/consts"
+	"github.com/fatedier/frp/models/consts"
 
 	ini "github.com/vaughan0/go-ini"
 )

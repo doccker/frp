@@ -1,4 +1,4 @@
-// Copyright 2016 doccker, doccker@gmail.com
+// Copyright 2016 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/doccker/frp/models/consts"
-	"github.com/doccker/frp/models/msg"
-	"github.com/doccker/frp/utils/util"
+	"github.com/fatedier/frp/models/consts"
+	"github.com/fatedier/frp/models/msg"
+	"github.com/fatedier/frp/utils/util"
 
 	ini "github.com/vaughan0/go-ini"
 )

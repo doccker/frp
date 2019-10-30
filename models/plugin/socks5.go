@@ -1,4 +1,4 @@
-// Copyright 2017 doccker, doccker@gmail.com
+// Copyright 2017 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	frpNet "github.com/doccker/frp/utils/net"
+	frpNet "github.com/fatedier/frp/utils/net"
 
 	gosocks5 "github.com/armon/go-socks5"
 )

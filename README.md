@@ -1,6 +1,6 @@
 # frp
 
-[![Build Status](https://travis-ci.org/doccker/frp.svg?branch=master)](https://travis-ci.org/doccker/frp)
+[![Build Status](https://travis-ci.org/fatedier/frp.svg?branch=master)](https://travis-ci.org/fatedier/frp)
 
 [README](README.md) | [中文文档](README_zh.md)
 
@@ -74,7 +74,7 @@ frp is under development and you can try it with latest release version. Master 
 
 ## Example Usage
 
-Firstly, download the latest programs from [Release](https://github.com/doccker/frp/releases) page according to your os and arch.
+Firstly, download the latest programs from [Release](https://github.com/fatedier/frp/releases) page according to your os and arch.
 
 Put **frps** and **frps.ini** to your server with public IP.
 
@@ -820,12 +820,12 @@ plugin_http_passwd = abc
 
 Interested in getting involved? We would like to help you!
 
-* Take a look at our [issues list](https://github.com/doccker/frp/issues) and consider sending a Pull Request to **dev branch**.
+* Take a look at our [issues list](https://github.com/fatedier/frp/issues) and consider sending a Pull Request to **dev branch**.
 * If you want to add a new feature, please create an issue first to describe the new feature, as well as the implementation approach. Once a proposal is accepted, create an implementation of the new features and submit it as a pull request.
 * Sorry for my poor english and improvement for this document is welcome even some typo fix.
-* If you have some wonderful ideas, send email to doccker@gmail.com.
+* If you have some wonderful ideas, send email to fatedier@gmail.com.
 
-**Note: We prefer you to give your advise in [issues](https://github.com/doccker/frp/issues), so others with a same question can search it quickly and we don't need to answer them repeatly.**
+**Note: We prefer you to give your advise in [issues](https://github.com/fatedier/frp/issues), so others with a same question can search it quickly and we don't need to answer them repeatly.**
 
 ## Donation
 
@@ -843,4 +843,4 @@ frp QQ group: 606194980
 
 ### Paypal
 
-Donate money by [paypal](https://www.paypal.me/doccker) to my account **doccker@gmail.com**.
+Donate money by [paypal](https://www.paypal.me/fatedier) to my account **fatedier@gmail.com**.

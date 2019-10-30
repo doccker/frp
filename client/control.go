@@ -1,4 +1,4 @@
-// Copyright 2017 doccker, doccker@gmail.com
+// Copyright 2017 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -22,14 +22,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doccker/frp/client/proxy"
-	"github.com/doccker/frp/models/config"
-	"github.com/doccker/frp/models/msg"
-	"github.com/doccker/frp/utils/log"
-	frpNet "github.com/doccker/frp/utils/net"
+	"github.com/fatedier/frp/client/proxy"
+	"github.com/fatedier/frp/models/config"
+	"github.com/fatedier/frp/models/msg"
+	"github.com/fatedier/frp/utils/log"
+	frpNet "github.com/fatedier/frp/utils/net"
 
-	"github.com/doccker/golib/control/shutdown"
-	"github.com/doccker/golib/crypto"
+	"github.com/fatedier/golib/control/shutdown"
+	"github.com/fatedier/golib/crypto"
 	fmux "github.com/hashicorp/yamux"
 )
 

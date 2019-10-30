@@ -1,4 +1,4 @@
-// Copyright 2017 doccker, doccker@gmail.com
+// Copyright 2017 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -21,19 +21,19 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doccker/frp/models/config"
-	"github.com/doccker/frp/models/consts"
-	frpErr "github.com/doccker/frp/models/errors"
-	"github.com/doccker/frp/models/msg"
-	"github.com/doccker/frp/server/controller"
-	"github.com/doccker/frp/server/proxy"
-	"github.com/doccker/frp/server/stats"
-	"github.com/doccker/frp/utils/net"
-	"github.com/doccker/frp/utils/version"
+	"github.com/fatedier/frp/models/config"
+	"github.com/fatedier/frp/models/consts"
+	frpErr "github.com/fatedier/frp/models/errors"
+	"github.com/fatedier/frp/models/msg"
+	"github.com/fatedier/frp/server/controller"
+	"github.com/fatedier/frp/server/proxy"
+	"github.com/fatedier/frp/server/stats"
+	"github.com/fatedier/frp/utils/net"
+	"github.com/fatedier/frp/utils/version"
 
-	"github.com/doccker/golib/control/shutdown"
-	"github.com/doccker/golib/crypto"
-	"github.com/doccker/golib/errors"
+	"github.com/fatedier/golib/control/shutdown"
+	"github.com/fatedier/golib/crypto"
+	"github.com/fatedier/golib/errors"
 )
 
 type ControlManager struct {

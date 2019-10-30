@@ -1,4 +1,4 @@
-// Copyright 2017 doccker, doccker@gmail.com
+// Copyright 2017 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -28,22 +28,22 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/doccker/frp/assets"
-	"github.com/doccker/frp/models/config"
-	"github.com/doccker/frp/models/msg"
-	"github.com/doccker/frp/models/nathole"
-	"github.com/doccker/frp/server/controller"
-	"github.com/doccker/frp/server/group"
-	"github.com/doccker/frp/server/ports"
-	"github.com/doccker/frp/server/proxy"
-	"github.com/doccker/frp/server/stats"
-	"github.com/doccker/frp/utils/log"
-	frpNet "github.com/doccker/frp/utils/net"
-	"github.com/doccker/frp/utils/util"
-	"github.com/doccker/frp/utils/version"
-	"github.com/doccker/frp/utils/vhost"
+	"github.com/fatedier/frp/assets"
+	"github.com/fatedier/frp/models/config"
+	"github.com/fatedier/frp/models/msg"
+	"github.com/fatedier/frp/models/nathole"
+	"github.com/fatedier/frp/server/controller"
+	"github.com/fatedier/frp/server/group"
+	"github.com/fatedier/frp/server/ports"
+	"github.com/fatedier/frp/server/proxy"
+	"github.com/fatedier/frp/server/stats"
+	"github.com/fatedier/frp/utils/log"
+	frpNet "github.com/fatedier/frp/utils/net"
+	"github.com/fatedier/frp/utils/util"
+	"github.com/fatedier/frp/utils/version"
+	"github.com/fatedier/frp/utils/vhost"
 
-	"github.com/doccker/golib/net/mux"
+	"github.com/fatedier/golib/net/mux"
 	fmux "github.com/hashicorp/yamux"
 )
 

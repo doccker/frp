@@ -1,7 +1,7 @@
 {
   "name": "frps-dashboard",
   "description": "A dashboard for frp server.",
-  "author": "doccker",
+  "author": "fatedier",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server -d --inline --hot --env.dev",

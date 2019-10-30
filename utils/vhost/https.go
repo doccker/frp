@@ -1,4 +1,4 @@
-// Copyright 2016 doccker, doccker@gmail.com
+// Copyright 2016 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,10 +20,10 @@ import (
 	"strings"
 	"time"
 
-	frpNet "github.com/doccker/frp/utils/net"
+	frpNet "github.com/fatedier/frp/utils/net"
 
-	gnet "github.com/doccker/golib/net"
-	"github.com/doccker/golib/pool"
+	gnet "github.com/fatedier/golib/net"
+	"github.com/fatedier/golib/pool"
 )
 
 const (

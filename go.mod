@@ -4,9 +4,9 @@ go 1.12
 
 require (
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
-	github.com/doccker/beego v0.0.0-20171024143340-6c6a4f5bd5eb
-	github.com/doccker/golib v0.0.0-20181107124048-ff8cd814b049
-	github.com/doccker/kcp-go v2.0.4-0.20190803094908-fe8645b0a904+incompatible
+	github.com/fatedier/beego v0.0.0-20171024143340-6c6a4f5bd5eb
+	github.com/fatedier/golib v0.0.0-20181107124048-ff8cd814b049
+	github.com/fatedier/kcp-go v2.0.4-0.20190803094908-fe8645b0a904+incompatible
 	github.com/golang/snappy v0.0.0-20170215233205-553a64147049 // indirect
 	github.com/gorilla/mux v1.7.3
 	github.com/gorilla/websocket v1.4.0

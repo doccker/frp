@@ -1,4 +1,4 @@
-// Copyright 2017 doccker, doccker@gmail.com
+// Copyright 2017 fatedier, fatedier@gmail.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -18,10 +18,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/doccker/frp/models/config"
-	"github.com/doccker/frp/models/consts"
-	"github.com/doccker/frp/utils/log"
-	"github.com/doccker/frp/utils/version"
+	"github.com/fatedier/frp/models/config"
+	"github.com/fatedier/frp/models/consts"
+	"github.com/fatedier/frp/utils/log"
+	"github.com/fatedier/frp/utils/version"
 
 	"github.com/gorilla/mux"
 )
