@@ -38,7 +38,7 @@
         methods: {
             handleSelect(key, path) {
                 if (key == '') {
-                    window.open("https://github.com/doccker/frp")
+                    window.open("https://github.com/fatedier/frp")
                 }
             }
         }

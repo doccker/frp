@@ -23,13 +23,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/doccker/frp/assets"
-	"github.com/doccker/frp/models/config"
-	"github.com/doccker/frp/models/msg"
-	"github.com/doccker/frp/utils/log"
-	frpNet "github.com/doccker/frp/utils/net"
-	"github.com/doccker/frp/utils/util"
-	"github.com/doccker/frp/utils/version"
+	"github.com/fatedier/frp/assets"
+	"github.com/fatedier/frp/models/config"
+	"github.com/fatedier/frp/models/msg"
+	"github.com/fatedier/frp/utils/log"
+	frpNet "github.com/fatedier/frp/utils/net"
+	"github.com/fatedier/frp/utils/util"
+	"github.com/fatedier/frp/utils/version"
 
 	fmux "github.com/hashicorp/yamux"
 )

@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/doccker/frp/utils/log"
+	"github.com/fatedier/frp/utils/log"
 
-	gnet "github.com/doccker/golib/net"
-	kcp "github.com/doccker/kcp-go"
+	gnet "github.com/fatedier/golib/net"
+	kcp "github.com/fatedier/kcp-go"
 )
 
 // Conn is the interface of connections used in frp.

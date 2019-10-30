@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	frpLog "github.com/doccker/frp/utils/log"
+	frpLog "github.com/fatedier/frp/utils/log"
 
-	"github.com/doccker/golib/pool"
+	"github.com/fatedier/golib/pool"
 )
 
 var (

@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/doccker/frp/utils/log"
+	"github.com/fatedier/frp/utils/log"
 
-	kcp "github.com/doccker/kcp-go"
+	kcp "github.com/fatedier/kcp-go"
 )
 
 type KcpListener struct {

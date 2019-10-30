@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/doccker/frp/utils/log"
+	"github.com/fatedier/frp/utils/log"
 )
 
 var (

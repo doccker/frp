@@ -20,10 +20,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/doccker/frp/models/msg"
+	"github.com/fatedier/frp/models/msg"
 
-	"github.com/doccker/golib/errors"
-	"github.com/doccker/golib/pool"
+	"github.com/fatedier/golib/errors"
+	"github.com/fatedier/golib/pool"
 )
 
 func NewUdpPacket(buf []byte, laddr, raddr *net.UDPAddr) *msg.UdpPacket {

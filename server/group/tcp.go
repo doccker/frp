@@ -19,9 +19,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/doccker/frp/server/ports"
+	"github.com/fatedier/frp/server/ports"
 
-	gerr "github.com/doccker/golib/errors"
+	gerr "github.com/fatedier/golib/errors"
 )
 
 // TcpGroupCtl manage all TcpGroups

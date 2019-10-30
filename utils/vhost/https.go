@@ -20,10 +20,10 @@ import (
 	"strings"
 	"time"
 
-	frpNet "github.com/doccker/frp/utils/net"
+	frpNet "github.com/fatedier/frp/utils/net"
 
-	gnet "github.com/doccker/golib/net"
-	"github.com/doccker/golib/pool"
+	gnet "github.com/fatedier/golib/net"
+	"github.com/fatedier/golib/pool"
 )
 
 const (

@@ -18,9 +18,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/doccker/golib/crypto"
+	"github.com/fatedier/golib/crypto"
 
-	_ "github.com/doccker/frp/assets/frps/statik"
+	_ "github.com/fatedier/frp/assets/frps/statik"
 )
 
 func main() {

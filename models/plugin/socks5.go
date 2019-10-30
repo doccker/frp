@@ -19,7 +19,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	frpNet "github.com/doccker/frp/utils/net"
+	frpNet "github.com/fatedier/frp/utils/net"
 
 	gosocks5 "github.com/armon/go-socks5"
 )
